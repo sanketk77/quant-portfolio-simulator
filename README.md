@@ -1,43 +1,46 @@
-# Quant Portfolio Simulator with Risk Controls
+💼 Quant Portfolio Simulator w/ Advanced Risk Controls
+🔗 Live Demo: quant-portfolio-simulator.vercel.app
 
-A comprehensive React-based portfolio backtesting application with advanced risk management features. Built with TypeScript, Tailwind CSS, and Recharts for professional-grade financial analysis.
+A cutting-edge, interactive portfolio backtesting tool built with ⚛️ React, 🟦 TypeScript, and 🎨 Tailwind CSS — designed for quants, traders, and analysts to simulate multi-asset strategies with real-time risk management and professional analytics.
 
-## 🚀 Features
+🌟 Key Highlights
+📂 Portfolio Management
+💼 Multi-Asset Simulation: Supports equities (AAPL, MSFT, GOOGL) and cryptocurrencies (BTC, ETH)
 
-### Portfolio Management
+⏳ Custom Timeframes: Choose your own backtesting range
 
-- **Multi-Asset Support**: Configure portfolios with stocks (AAPL, MSFT, GOOGL, etc.) and cryptocurrencies (BTC, ETH)
-- **Date Range Selection**: Backtest strategies across custom time periods
-- **Capital Management**: Set initial capital with flexible position sizing
+💵 Capital Allocation: Set initial capital and configure dynamic sizing
 
-### Trading Strategies
+📈 Strategy Engine
+⚖️ Equal Weighting: Simple diversification through periodic balancing
 
-- **Equal Weight**: Maintains balanced allocations with periodic rebalancing
-- **Momentum**: Buys assets with strong positive momentum, sells underperformers
-- **Mean Reversion**: Contrarian strategy buying oversold assets and selling overbought ones
+🚀 Momentum: Ride trends by buying strength and exiting weakness
 
-### Risk Controls
+🔄 Mean Reversion: Exploit volatility by buying dips and selling peaks
 
-- **Maximum Drawdown**: Automatic position liquidation when losses exceed threshold
-- **Volatility Capping**: Dynamic position sizing during high volatility periods
-- **Stop Loss**: Final protection against catastrophic portfolio losses
+🛡️ Risk Management Layer
+⛔ Stop Loss: Exit positions to protect capital
 
-### Analytics & Visualization
+📉 Max Drawdown: Trigger portfolio liquidation upon breaching loss limits
 
-- **Interactive Charts**: Portfolio value, returns, and drawdown visualization
-- **Performance Metrics**: Sharpe ratio, max drawdown, win rate, alpha, beta
-- **Trade History**: Detailed log with filtering, sorting, and CSV export
-- **Real-time Updates**: Live performance tracking during simulation
+🌪️ Volatility Cap: Automatically adjust exposure in turbulent markets
 
-## 🛠️ Technology Stack
+📊 Interactive Analytics
+📈 Real-time Charts: Visualize NAV, drawdown, and returns live
 
-- **Frontend**: React 18 with TypeScript
-- **Styling**: Tailwind CSS with custom components
-- **Charts**: Recharts for interactive financial visualizations
-- **Icons**: Lucide React for consistent iconography
-- **Build Tool**: Vite for fast development and building
-- **Date Handling**: date-fns for robust date operations
+📋 Trade Logs: Exportable, sortable, and filterable transaction data
 
+📌 Performance Metrics: Track Sharpe ratio, alpha/beta, win rate, max drawdown
+
+🛠️ Built With
+🔧 Tech	🔍 Role
+⚛️ React 18	UI and component framework
+🟦 TypeScript	Static typing and better dev tooling
+🎨 Tailwind CSS	Fast, utility-first styling
+📊 Recharts	Beautiful financial data visualizations
+🧠 Lucide Icons	Modern, lightweight icon set
+⚡ Vite	Ultra-fast dev server and build tool
+📅 date-fns	Efficient date manipulation utilities
 ## 📁 Project Structure
 
 ```
