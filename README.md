@@ -1,5 +1,5 @@
 💼 Quant Portfolio Simulator w/ Advanced Risk Controls
-🔗 Live Demo: quant-portfolio-simulator.vercel.app
+🔗 Live Demo: https://quant-portfolio-simulator-7bo0l1l7r-sankets-projects-8fae85e1.vercel.app/
 
 A cutting-edge, interactive portfolio backtesting tool built with ⚛️ React, 🟦 TypeScript, and 🎨 Tailwind CSS — designed for quants, traders, and analysts to simulate multi-asset strategies with real-time risk management and professional analytics.
 
